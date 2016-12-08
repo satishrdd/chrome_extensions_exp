@@ -1,0 +1,16 @@
+{
+  "name": "PrintPage",
+  "description": "Adds a print extension to the browser.",
+  "version": "1.2",
+  "background": {
+    "scripts": ["popup.js"]
+  },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+      "default_title": "Print current page",
+      "default_icon": "print.png"
+  },
+  "manifest_version": 2
+}
